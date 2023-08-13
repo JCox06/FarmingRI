@@ -1,0 +1,12 @@
+ADVANCED FARMING MOD:
+
+- Long Wheat Block
+- Straw Blocks and thatched blocks (just building blocks)
+- Grass bale randomly ticks to hay bale (allows feeding animals)
+- Silage Bale produces silage (allows feeding animals)
+- Wheat can be turned to grain --> Milled to flour
+
+
+BioFuel Generator
+ - Ferment Crops to turn them into biofuels
+ - Use wood as a simple biofuel source

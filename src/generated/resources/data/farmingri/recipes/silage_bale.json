@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "a": {
+      "item": "farmingri:grass_bale"
+    }
+  },
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "result": {
+    "item": "farmingri:silage_bale"
+  },
+  "show_notification": true
+}

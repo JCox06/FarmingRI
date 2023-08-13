@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=east,genpower=gen": {
+      "model": "farmingri:block/wood_power_gen_gen",
+      "y": 270
+    },
+    "facing=east,genpower=off": {
+      "model": "farmingri:block/wood_power_gen_off",
+      "y": 270
+    },
+    "facing=east,genpower=powered": {
+      "model": "farmingri:block/wood_power_gen_powered",
+      "y": 270
+    },
+    "facing=north,genpower=gen": {
+      "model": "farmingri:block/wood_power_gen_gen",
+      "y": 180
+    },
+    "facing=north,genpower=off": {
+      "model": "farmingri:block/wood_power_gen_off",
+      "y": 180
+    },
+    "facing=north,genpower=powered": {
+      "model": "farmingri:block/wood_power_gen_powered",
+      "y": 180
+    },
+    "facing=south,genpower=gen": {
+      "model": "farmingri:block/wood_power_gen_gen"
+    },
+    "facing=south,genpower=off": {
+      "model": "farmingri:block/wood_power_gen_off"
+    },
+    "facing=south,genpower=powered": {
+      "model": "farmingri:block/wood_power_gen_powered"
+    },
+    "facing=west,genpower=gen": {
+      "model": "farmingri:block/wood_power_gen_gen",
+      "y": 90
+    },
+    "facing=west,genpower=off": {
+      "model": "farmingri:block/wood_power_gen_off",
+      "y": 90
+    },
+    "facing=west,genpower=powered": {
+      "model": "farmingri:block/wood_power_gen_powered",
+      "y": 90
+    }
+  }
+}

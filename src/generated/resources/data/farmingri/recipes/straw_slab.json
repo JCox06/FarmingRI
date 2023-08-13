@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "farmingri:straw_block"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "item": "farmingri:straw_slab"
+  },
+  "show_notification": true
+}

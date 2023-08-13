@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "farmingri:block/straw_slab"
+    },
+    "type=double": {
+      "model": "farmingri:block/straw_block"
+    },
+    "type=top": {
+      "model": "farmingri:block/straw_slab_top"
+    }
+  }
+}

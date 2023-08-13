@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "farmingri:block/straw_block",
+    "side": "farmingri:block/straw_block",
+    "top": "farmingri:block/straw_block"
+  }
+}
