@@ -10,15 +10,13 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import org.slf4j.Logger;
+import uk.co.jcox.farmingri.FarmingRI;
 
 import java.util.Collections;
 import java.util.List;
 
 
 public class DataGeneration {
-
-    private static final Logger logger = LogUtils.getLogger();
-
 
     @SubscribeEvent
     public static void gatherDataListener(GatherDataEvent event){
@@ -27,13 +25,13 @@ public class DataGeneration {
         final PackOutput packOutput = event.getGenerator().getPackOutput();
 
 
-        logger.info("Starting generators for CLIENT ASSETS");
+        FarmingRI.LOGGER.info("Starting generators for CLIENT ASSETS");
         generator.addProvider(event.includeClient(), new FRILangProvider(packOutput));
         generator.addProvider(event.includeClient(), new FRIBlockStateProvider(packOutput,existingFileHelper));
         generator.addProvider(event.includeClient(), new FRIItemModelProvider(packOutput, existingFileHelper));
 
 
-        logger.info("Starting generators for SERVER DATA");
+        FarmingRI.LOGGER.info("Starting generators for SERVER DATA");
         BlockTagsProvider blockTagsProvider = new FRIBlockTagsProvider(packOutput, event.getLookupProvider(), existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new FRIItemTagsProvider(packOutput, event.getLookupProvider(), blockTagsProvider, existingFileHelper));
